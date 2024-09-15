@@ -1,0 +1,6 @@
+-- Script to kick all players with a custom message
+local Players = game:GetService("Players")
+
+for _, player in ipairs(Players:GetPlayers()) do
+    player:Kick("Heheehe, good luck!")
+end
